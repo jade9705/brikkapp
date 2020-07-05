@@ -1,25 +1,28 @@
-
 .estate-compare{
     display: flex;
-    .estate-container{
+
+    .estate-container {
       border: 0.05rem lightgrey solid;
       padding: 0.5rem;
       max-width: 21.5%;
       line-height: 1.3em;
       font-size: 0.6em;
+
       &:first-child {
         margin-left: 28.5%;
         margin-right:1rem;
       }
+
       .estate-image {
         max-width: 20vw;
       }
-      .estate-specs{
-        display:flex;
+
+      .estate-specs {
+        display: flex;
         flex-direction: column;
       
-        &__label{
-          display:flex;
+        &__label {
+          display: flex;
           justify-content: space-between;
           padding: 0.3em;
           
@@ -28,11 +31,14 @@
           }
         }
       }
-      .company{
+
+      .company {
         display: flex;
+
         &__logo {
           width: 22%;
         }
+
         &__name {
           align-self: center;
           padding-left: 0.5em;
@@ -40,9 +46,11 @@
       }
     }
   }
-  .estate-specs--betterValue{
+
+  .estate-specs--betterValue {
     background-color: #78e778;
   }
+  
   .estate-specs--worseValue {
     background-color: #fc8194;
   }
