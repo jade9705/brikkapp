@@ -10,7 +10,7 @@ function EstateListItem({image, name, letter}){
            {letter ? <div className="shadow">
               <div class="circle">{letter}</div>
 
-           </div> : '' } 
+             </div> : '' } 
           </div>
           <div className="estate__name">
             {name}
@@ -22,4 +22,4 @@ function EstateListItem({image, name, letter}){
 export default EstateListItem
 
 
-//inset 10px 10px rgba(0, 0, 255, 0.2), inset -10px -10px rgba(0, 0, 255, 0.2)
+
