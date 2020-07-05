@@ -24,10 +24,15 @@ function EstateComparisonItem({image, name, price, locality, floorArea, landArea
               <strong>Land area</strong> <div className="estate-info">{landArea} m²</div>
             </div>
           </div>
+          
+          {companyLogo || companyName ?
+    
           <div className="company">
             <img className="company__logo" src={companyLogo} alt="logo of company"/> 
             <div className="company__name">{companyName}</div>
-          </div>
+          </div> : ''
+          }
+
         </div>
     
 

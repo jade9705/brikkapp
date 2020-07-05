@@ -11,7 +11,7 @@ const EstateList = ({estateProps}) => {
             <>
                 {estateProps.map((estateInfo, key) => {    
                     return( 
-                    <EstateListItem image={estateInfo.images[0]} name={estateInfo.name} key={key} />
+                    <EstateListItem image={estateInfo.images[0]} name={estateInfo.name} key={key} letter={key === 4 ? 'A' : key === 6 ? 'B' : null} />
                     )
                 })}
             </>

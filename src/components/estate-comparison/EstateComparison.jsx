@@ -10,8 +10,8 @@ function EstateComparison({estateProps}){
      
     if(estateProps){   
         const cheaperPrice=estateProps[4].prize_czk < estateProps[6].prize_czk;
-        const moreBuildingSpace=estateProps[4].building_area < estateProps[6].building_area;
-        const moreLandSpace=estateProps[4].land_area < estateProps[6].land_area;
+        const moreBuildingSpace=estateProps[4].building_area > estateProps[6].building_area;
+        const moreLandSpace=estateProps[4].land_area > estateProps[6].land_area;
 
 
   
