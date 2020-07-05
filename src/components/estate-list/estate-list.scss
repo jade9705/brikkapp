@@ -1,0 +1,41 @@
+
+.estate-list-container {
+    display: flex;
+    padding: 0.5em 8vw;
+  
+    .estate {
+     max-width: 10vw;
+     position: relative;
+     
+     img {
+       max-height: 10vh;
+       width: 8.2vw;
+      //  position: absolute;
+     }
+  
+     &__name {
+        font-size: 0.5em;
+  
+      
+       
+     }
+    }
+  }
+  
+  .selectedA{
+    background-color: lightpink;
+    z-index: 1;
+    position: absolute;
+  }
+  .selectedB{
+    border: 5px lightsteelblue solid;
+    // position: absolute;
+  }
+  .a{
+  
+    background-color: lightsteelblue;
+    position: absolute;
+    z-index: 10;
+   
+   
+  }
